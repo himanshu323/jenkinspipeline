@@ -17,7 +17,7 @@ stages{
             }
             post {
                 success {
-                    echo 'Now Archiving Test...'
+                    echo 'Now Archiving Testw...'
                     archiveArtifacts artifacts: '**/target/*.war'
                 }
             }
